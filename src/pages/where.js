@@ -5,6 +5,7 @@ const WherePage = () => (
     <h1>Exact Address, Cornwall</h1>
     <p>Directions:</p>
     <p>Accommodation:</p>
+    <p>Things to do:</p>
   </div>
 );
 
