@@ -7,22 +7,13 @@ import Transition from '../components/transition';
 
 import './index.css';
 
-// const Header = ({ name, title, date }) => (
-//   <header>
-//     <Link to="/1">
-//       <span>{name}</span> — {title}
-//     </Link>
-//     <time>{date}</time>
-//   </header>
-// );
-
 const Header = ({ name, title, date }) => (
   <header>
     <Link to="/what">
       what
     </Link>
     <Link to="/where">
-      where
+      wedding weekend
     </Link>
     <Link to="/when">
       when
