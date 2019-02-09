@@ -12,11 +12,11 @@ const Header = ({ name, title, date }) => (
     <Link to="/what">
       what
     </Link>
-    <Link to="/where">
+    <Link to="/wedding-weekend">
       wedding weekend
     </Link>
-    <Link to="/when">
-      when
+    <Link to="/accommodation">
+      accommodation
     </Link>
     <Link to="/gifts">
       gifts

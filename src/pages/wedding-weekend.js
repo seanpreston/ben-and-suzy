@@ -1,19 +1,21 @@
 import React from 'react';
 
 import band from '../media/images/band.png';
+import church from '../media/images/church.png';
 
-const WherePage = () => (
+const WeddingWeekendPage = () => (
   <div>
-    <h1>Wedding Weekend</h1>
-    <h2>Friday Night (19th)</h2>
+    <h1>WEDDING WEEKEND</h1>
+    <h2>FRIDAY NIGHT (19th)</h2>
     <img src={band} alt='a band' />
     <p>If all goes to plan, on the Friday night before the wedding we will all meet up at 6pm down in Port Isaac to watch our favourite sea shanty band, the Fisherman’s Friends, perform on the Platt. It’s not yet confirmed that they’ll be playing however they do so on most Friday evenings through summer so fingers crossed. There are plenty of pubs and restaurants nearby where people can grab a pint and some fish & chips.</p>
     <p>If Fisherman’s Friends are not performing then instead we’ll all head to a local pub to have a few drinks together and ready ourselves for the nuptials to come. Whatever happens, we’ll let you know closer to the time.</p>
     <br />
 
-    <h2>Wedding Day (20th)</h2>
+    <h2>WEDDING DAY (20th)</h2>
 
     <h3>The ceremony</h3>
+    <img src={church} alt='a church' />
     <p>St. Enodoc Church,
     <br />Trebetherick,
     <br />Cornwall PL27 6SA</p>
@@ -49,4 +51,4 @@ const WherePage = () => (
   </div>
 );
 
-export default WherePage;
+export default WeddingWeekendPage;
