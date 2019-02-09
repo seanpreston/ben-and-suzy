@@ -6,7 +6,7 @@ import hero from '../media/images/hero.png';
 
 const WhatPage = () => (
   <div>
-    <img src={heroText} />
+    <img src={heroText} alt="Suzy and Ben"/>
     <p>are getting married</p>
     <img src={hero} />
     <h2>20th JULY 2019</h2>
