@@ -7,7 +7,9 @@ const WeddingWeekendPage = () => (
   <div>
     <h1>WEDDING WEEKEND</h1>
     <h2>FRIDAY NIGHT (19th)</h2>
-    <img src={band} alt='a band' />
+    <div id="floatRight">
+      <img src={band} alt='a band' />
+    </div>
     <p>If all goes to plan, on the Friday night before the wedding we will all meet up at 6pm down in Port Isaac to watch our favourite sea shanty band, the Fisherman’s Friends, perform on the Platt. It’s not yet confirmed that they’ll be playing however they do so on most Friday evenings through summer so fingers crossed. There are plenty of pubs and restaurants nearby where people can grab a pint and some fish & chips.</p>
     <p>If Fisherman’s Friends are not performing then instead we’ll all head to a local pub to have a few drinks together and ready ourselves for the nuptials to come. Whatever happens, we’ll let you know closer to the time.</p>
     <br />
@@ -15,13 +17,16 @@ const WeddingWeekendPage = () => (
     <h2>WEDDING DAY (20th)</h2>
 
     <h3>The ceremony</h3>
-    <img src={church} alt='a church' />
+    <div id="floatRight">
+      <img src={church} alt='a church' />
+    </div>
+
+    <h3>Getting to the church</h3>
     <p>St. Enodoc Church,
     <br />Trebetherick,
     <br />Cornwall PL27 6SA</p>
     <p>Please arrive at the church by 12.15pm.</p>
 
-    <h3>Getting to the church</h3>
     <p>Once you’ve come down Daymer Lane, the church can only be accessed by foot and so guests will need to do the short walk across the fairway. There will be signs and ushers to help you on your way and if you are coming by car there will be space reserved for wedding guests in the car park at the bottom of Daymer Lane.</p>
 
     <h3>Dress code</h3>
