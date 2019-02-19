@@ -146,6 +146,10 @@ p {
   text-align: left;
 }
 
+#align-center p {
+  text-align: center;
+}
+
 #floatRight img {
   float: right;
 }
