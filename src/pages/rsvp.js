@@ -16,21 +16,39 @@ class RSVPPage extends Component {
           </div>
 
           <div>
-            <label>Yes, I'd love to</label>
-            <input type="radio" name="rsvp-status" value="Yes, I'd love to" />
+            <label htmlFor="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+
+          <p>Able to attend?</p>
+          <div>
+            <label>Yes</label>
+            <input type="radio" name="rsvp-status" value="Yes" />
           </div>
 
           <div>
-            <label>No, this sounds shit</label>
-            <input type="radio" name="rsvp-status" value="No, this sounds shit" />
+            <label>No</label>
+            <input type="radio" name="rsvp-status" value="No" />
           </div>
 
           <div>
-            <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" rows="6"></textarea>
+            <label htmlFor="diet">Dietary requirements?</label>
+            <textarea name="diet" id="diet" rows="6"></textarea>
+          </div>
+
+          <p>Do you need a coach between the ceremony and reception?</p>
+          <div>
+            <label>Yes please</label>
+            <input type="radio" name="coach-status" value="Yes" />
+          </div>
+
+          <div>
+            <label>No thanks</label>
+            <input type="radio" name="coach-status" value="No" />
           </div>
         </form>
 
+        <p>Please respond by 16th March 2019</p>
         <p>
           <a href='mailto:test@example.com?subject=subject&body=message'>
             Send
