@@ -5,7 +5,7 @@ class RSVPPage extends Component {
   render() {
     return (
       <div>
-        <h1>Can you come?</h1>
+        <h1>RSVP</h1>
 
         <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="bot-field" />
